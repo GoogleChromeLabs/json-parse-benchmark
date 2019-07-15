@@ -17,6 +17,8 @@ npm run bench
 
 This repository tests each approach in 100 different contexts in the dumbest possible way, i.e. by simply invoking `d8` a 100 times per script. That is, we perform 100 cold loads, and measure everything (parsing, compilation, and execution) until the program halts.
 
+On my workstation (HP Z840 with 2 × 14-core Intel Xeon E5-2690 v4 processors @ 2.6GHz, 35MB Cache + 128GB DDR4 2400MHz RAM), I got the following results:
+
 |                        | JS literal | `JSON.parse` | Speed-up |
 | ---------------------- | ---------: | -----------: | -------: |
 | V8 v7.5                |   23.765 s |     15.766 s |     1.5× |
