@@ -13,7 +13,7 @@
 
 const fs = require('fs');
 
-const data = require('./data.js');
+const data = require('./data.js').slice(0, 200);
 
 const json = JSON.stringify(data);
 const jsStringLiteral = JSON.stringify(json);
@@ -27,3 +27,6 @@ fs.writeFileSync('./out/json.js',
 // (We'd need additional escaping if the target was a <script> tag.)
 fs.writeFileSync('./out/js.js',
                  `const data = ${ json };\n`);
+
+// Noop file :)
+fs.writeFileSync('./out/empty.js', `\n`);
