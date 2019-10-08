@@ -16,6 +16,8 @@
 binaries="
   v8-7.5.288
   v8-7.6.303
+  v8-7.7.299
+  v8-7.8.279
   v8
   chakra
   javascriptcore
