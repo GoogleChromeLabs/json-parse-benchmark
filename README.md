@@ -43,7 +43,7 @@ $ v8 --runtime-call-stats out/json.js | grep Parse
 
 The source files in this repository are released under the Apache 2.0 license, as detailed in the LICENSE file.
 
-The scripts in this repository dynamically download [`JetStream2/SeaMonster/inspector-json-payload.js`](https://raw.githubusercontent.com/WebKit/webkit/ffdd2799d3237993354978b9d0cdd1d248fe3787/PerformanceTests/JetStream2/SeaMonster/inspector-json-payload.js), which has its own license:
+The scripts in this repository dynamically download [`JetStream2/SeaMonster/inspector-json-payload.js`](https://raw.githubusercontent.com/WebKit/WebKit/ab7171c1d63acb8c77216b5a11f98323b56b998b/PerformanceTests/JetStream2/SeaMonster/inspector-json-payload.js), which has its own license:
 
 ```
 /*

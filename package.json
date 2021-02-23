@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "fetch-payload": "curl -s https://raw.githubusercontent.com/WebKit/webkit/ffdd2799d3237993354978b9d0cdd1d248fe3787/PerformanceTests/JetStream2/SeaMonster/inspector-json-payload.js | sed 's/let obj/module.exports/' > data.js",
+    "fetch-payload": "curl -s https://raw.githubusercontent.com/WebKit/WebKit/ab7171c1d63acb8c77216b5a11f98323b56b998b/PerformanceTests/JetStream2/SeaMonster/inspector-json-payload.js | sed 's/let obj/module.exports/' > data.js",
     "install-js-engines": "jsvu && jsvu v8@7.8 && jsvu v8@7.7 && jsvu v8@7.6 && jsvu v8@7.5",
     "build": "mkdir -p out && node build.js",
     "postinstall": "npm run fetch-payload && npm run install-js-engines && npm run build",
