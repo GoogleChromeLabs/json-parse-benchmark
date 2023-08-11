@@ -8,7 +8,7 @@ Clone this repository, and then run these commands:
 
 ```bash
 npm install
-export PATH="${HOME}/.jsvu:${PATH}"
+export PATH="${HOME}/.jsvu/bin:${PATH}"
 npm run bench
 ```
 

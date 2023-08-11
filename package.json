@@ -8,6 +8,6 @@
     "bench": "./bench.sh"
   },
   "devDependencies": {
-    "jsvu": "^1.9.3"
+    "jsvu": "^2.1.0"
   }
 }
